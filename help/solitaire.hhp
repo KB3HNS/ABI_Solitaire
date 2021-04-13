@@ -1,0 +1,21 @@
+[OPTIONS]
+Auto Index=Yes
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=solitaire.chm
+Contents file=Table of Contents.hhc
+Default topic=index.html
+Display compile progress=No
+Enhanced decompilation=Yes
+Flat=Yes
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=Help - Solitaire
+
+
+[FILES]
+index.html
+
+[INFOTYPES]
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Command Line Options</title>
+</head>
+<body
+ style="color: rgb(255, 255, 255); background-color: rgb(0, 128, 0);"
+ alink="#ffff00" link="#ffff00" vlink="#cccccc">
+<div style="text-align: center;"><span
+ style="color: rgb(255, 204, 255);"><font size="+3">Command Line
+Options:<br>
+<br>
+</font></span>
+<div style="text-align: left;">
+<div style="text-align: justify;"><span
+ style="color: rgb(255, 204, 255);"></span><font size="+2">Program
+usage:&nbsp;&nbsp; solitaire.exe [options] (</font><span
+ style="font-style: italic;"><font size="+2">filename)</font></span><br>
+<span style="font-style: italic;"></span><br>
+<span style="font-style: italic;"><span style="font-style: italic;"></span></span><font
+ size="+1"><span style="font-weight: bold;">Options:</span></font><br>
+&nbsp;&nbsp;&nbsp; /g=<span style="font-style: italic;">gametype</span>
+where gametype is StreetsAlleys, War, Klondike2<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Starts game with a new
+game of type gametype<br>
+<br>
+&nbsp;&nbsp;&nbsp; /h<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Starts game and opens the help window<br>
+<br>
+&nbsp;&nbsp;&nbsp; /f=<span style="font-style: italic;">filename</span><br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Loads file filename<br>
+<br>
+<span style="font-weight: bold;"><font size="+1">Filename:</font></span><br>
+<span style="font-weight: bold;"><font size="+1">&nbsp;&nbsp;&nbsp; </font></span>Loads
+file (filename).&nbsp; Same functionality as /f=<span
+ style="font-style: italic;">filename</span>.&nbsp; <br>
+<br>
+<font size="+1"><span style="font-weight: bold;">Order of preference:</span></font><br>
+<font size="+1"><span style="font-weight: bold;">&nbsp;&nbsp;&nbsp; </span></font>If
+both the /f=<span style="font-style: italic;">filename</span> and a
+filename is given.&nbsp; The program will ignore the last filename and
+attempt to load the file given with the /f option.&nbsp; The program
+will attempt to determine the game type from the file.&nbsp; If no file
+name is given as either the (filename) option or the /f=<span
+ style="font-style: italic;">filename</span>, the program will look for
+/g=<span style="font-style: italic;">gametype </span>and start a game
+of that type (if valid).&nbsp; [Note: the program only looks at the
+first letter after the equal sign for the /g option; case is
+ignored].&nbsp; If no options are given the game opens but does not
+start a game type.&nbsp; For more information on files, see the section
+labeled <a
+ href="file:///C:/Documents%20and%20Settings/abuettner.PROLOGIC/My%20Documents/dev/solitaire/help/files.html">Opening
+/ Saving Files</a>.&nbsp; For more information on the file format see
+the <a href="developer.html">developer notes</a> section.&nbsp; <br>
+<br>
+<br>
+</div>
+<span style="color: rgb(255, 204, 255);"></span></div>
+</div>
+</body>
+</html>

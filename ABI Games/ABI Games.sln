@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ABI Games", "ABI Games.vdproj", "{8B06118D-673B-4E68-806B-2323AADC5D34}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8B06118D-673B-4E68-806B-2323AADC5D34}.Debug.ActiveCfg = Debug
+		{8B06118D-673B-4E68-806B-2323AADC5D34}.Debug.Build.0 = Debug
+		{8B06118D-673B-4E68-806B-2323AADC5D34}.Release.ActiveCfg = Release
+		{8B06118D-673B-4E68-806B-2323AADC5D34}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

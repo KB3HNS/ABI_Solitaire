@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Developer Notes</title>
+</head>
+<body
+ style="color: rgb(255, 255, 255); background-color: rgb(0, 128, 0);"
+ alink="#ffff00" link="#ffff00" vlink="#cccccc">
+<div style="text-align: center;"><span
+ style="color: rgb(255, 204, 255);"><font size="+3">First Time Users:<br>
+<br>
+</font></span>
+<div style="text-align: left;"><span style="color: rgb(255, 204, 255);"><span
+ style="color: rgb(255, 255, 255);">&nbsp;&nbsp;&nbsp; When the game is
+run for the first time, the program will bring up an "Open" dialog box
+asking you for the location of the solitaire bitmap card images.&nbsp;
+This is in the subdirectory "bitmap" of wherever you unpacked the
+solitaire binaries.&nbsp; After you do this, the game creates a
+registry entry in HKEY_LOCAL_MACHINE/SOFTWARE/ABI/Solitaire called
+bitmaps location.&nbsp; If the software is ever moved, this key needs
+to be deleted or updated with the new path information.&nbsp; The
+easiest way to accomplish this is to do the following:<br>
+<br>
+1&nbsp; - go to Start &gt; Run<br>
+2&nbsp; - enter "regedit" and press [enter]<br>
+3&nbsp; - A window will appear, on the left there will appear an icon
+with "My Computer" written next to it.&nbsp; If, to the left of that
+icon, there is a "-" sign, skip to step 5.<br>
+4&nbsp; - Click on the + sign next to the "My Computer" icon.<br>
+5&nbsp; - Several folders will appear with capitol names and "+"
+marks.&nbsp; Click on the "+" next to "HKEY_LOCAL_MACHINE"<br>
+6&nbsp; - The tree will expand.&nbsp; Look for "SOFTWARE" and click on
+the "+" mark.&nbsp; <br>
+7&nbsp; - The tree will expand again.&nbsp; Look for "ABI" and click on
+the FOLDER.<br>
+8&nbsp; - Hit the &lt;Delete&gt; button.&nbsp; A dialog box will appear
+asking you to confirm that you want to delete that key.&nbsp; Click
+"Yes".<br>
+9&nbsp; - Close the program.<br>
+<br>
+This will delete the key and cause the program to again ask you where
+the bitmaps are located.&nbsp; Select the new location.&nbsp; <br>
+<br>
+<span style="font-weight: bold;">NOTE:&nbsp; </span>The images must be
+in a subfolder of the game labeled bitmaps in order for the game to
+work properly.&nbsp; If, after you have started a new game, you don't
+see any cards, it is because the location in the registry is
+incorrect.&nbsp; <br>
+<br>
+P.S.&nbsp; Yes, I am working on a more modern way of deploying this
+application.<br>
+</span></span>
+<p class="MsoPlainText"><br>
+</p>
+<span style="color: rgb(255, 204, 255);"></span></div>
+</div>
+</body>
+</html>

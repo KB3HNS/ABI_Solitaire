@@ -1,0 +1,344 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="FrameName" value="Main">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Command Line Options">
+		<param name="Name" value="The Command Line">
+		<param name="Local" value="commands.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Speciying Files on the Command Line">
+			<param name="Name" value="File Usage">
+			<param name="Local" value="files.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Using the Command Line">
+			<param name="Name" value="The Command Line">
+			<param name="Local" value="commands.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Credits">
+		<param name="Name" value="credits">
+		<param name="Local" value="credits.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="What's New">
+		<param name="Name" value="What's new in Solitaire (Changelog)">
+		<param name="Local" value="whatsnew.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Developer Information">
+		<param name="Name" value="Developer Information">
+		<param name="Local" value="developer.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Debug Builds">
+			<param name="Name" value="Developer Debug Builds">
+			<param name="Local" value="debug.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="General Developer Information">
+			<param name="Name" value="Developer Information">
+			<param name="Local" value="developer.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="The dbgDummy Class">
+			<param name="Name" value="Developer Debug Information">
+			<param name="Local" value="debug.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Game Rules">
+		<param name="Name" value="General Game Rules">
+		<param name="Local" value="notes.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="General">
+			<param name="Name" value="General Game Rules">
+			<param name="Local" value="notes.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Streets and Alleys">
+			<param name="Name" value="Streets and Alleys Game Rules">
+			<param name="Local" value="srules.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="War">
+			<param name="Name" value="War Game Rules">
+			<param name="Local" value="wrules.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Klondike 2">
+			<param name="Name" value="Klondike 2 Rule Set">
+			<param name="Local" value="krules.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Pyrimid">
+			<param name="Name" value="Pyrimid Rules">
+			<param name="Local" value="pyrules.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Calculation">
+			<param name="Name" value="Calculation Rules">
+			<param name="Local" value="calrules.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Four Corners">
+			<param name="Name" value="Four Corners - Rules">
+			<param name="Local" value="fcrules.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="General">
+		<param name="Name" value="General Notes">
+		<param name="Local" value="notes.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="General Notes">
+			<param name="Name" value="General Notes">
+			<param name="Local" value="notes.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Introduction">
+			<param name="Local" value="introduction.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction">
+		<param name="Name" value="Introduction">
+		<param name="Local" value="introduction.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="General">
+			<param name="Name" value="Intorduction">
+			<param name="Local" value="introduction.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Streets and Alleys">
+			<param name="Name" value="Streets and Alleys Introduction">
+			<param name="Local" value="sintroduction.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="War">
+			<param name="Name" value="War Introduction">
+			<param name="Local" value="war.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Klondike 2">
+			<param name="Name" value="Klondike 2 Introduction">
+			<param name="Local" value="kintroduction.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Pyrimid">
+			<param name="Name" value="Pyrimid Introduction">
+			<param name="Local" value="pyintroduction.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Calculation">
+			<param name="Name" value="Calculation Introduction">
+			<param name="Local" value="calintroduction.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Four Corners">
+			<param name="Name" value="Four Corners - Introduction">
+			<param name="Local" value="fcintroduction.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Keyboard Shortcuts">
+		<param name="Name" value="Keyboard Commands">
+		<param name="Local" value="commands.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Objective">
+		<param name="Name" value="General Objective">
+		<param name="Local" value="notes.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="General">
+			<param name="Name" value="General Objective">
+			<param name="Local" value="notes.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Streets and Alleys">
+			<param name="Name" value="Streets and Alleys Objective">
+			<param name="Local" value="sobjective.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="War">
+			<param name="Local" value="wobjective.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Klondike 2">
+			<param name="Name" value="Klondike 2 Objective">
+			<param name="Local" value="kobjective.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Pyrimid">
+			<param name="Name" value="Pyrimid Objective">
+			<param name="Local" value="pyobjective.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Calculation">
+			<param name="Name" value="Calculation Objective">
+			<param name="Local" value="calobjective.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Four Corners">
+			<param name="Name" value="Four Corners - Objective">
+			<param name="Local" value="fcobjective.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Opening Saving Files">
+		<param name="Name" value="Opening / Saving Files">
+		<param name="Local" value="files.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Streets and Alleys">
+		<param name="Name" value="Streets and Alleys">
+		<param name="Local" value="sanda.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Game Rules">
+			<param name="Name" value="Streets and Alleys Rules">
+			<param name="Local" value="srules.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Introduction">
+			<param name="Name" value="Introduction">
+			<param name="Local" value="sanda.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Objective">
+			<param name="Name" value="Streets and Alleys Objective">
+			<param name="Local" value="sobjective.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="War">
+		<param name="Name" value="Introduction">
+		<param name="Local" value="War\introduction.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Game Rules">
+			<param name="Name" value="Rules">
+			<param name="Local" value="wrules.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Introduction">
+			<param name="Name" value="Introduction">
+			<param name="Local" value="wintroduction.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Objective">
+			<param name="Name" value="Objective">
+			<param name="Local" value="wobjective.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Klondike 2">
+		<param name="Name" value="Klondike 2">
+		<param name="Local" value="klondike2.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Introduction">
+			<param name="Name" value="Klondike 2 Introduction">
+			<param name="Local" value="kintroduction.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Game Rules">
+			<param name="Name" value="Klondike 2 Game Rules">
+			<param name="Local" value="krules.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Objective">
+			<param name="Name" value="Klondike 2 Game Objective">
+			<param name="Local" value="kobjective.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Pyrimid">
+		<param name="Name" value="Pyrimid">
+		<param name="Local" value="pyrimid.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Introduction">
+			<param name="Name" value="Pyrimid Introduction">
+			<param name="Local" value="pyintroduction.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Game Rules">
+			<param name="Name" value="Pyrimid Game Rules">
+			<param name="Local" value="pyrules.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Objective">
+			<param name="Name" value="Pyrimid Objectives">
+			<param name="Local" value="pyobjective.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Calculation">
+		<param name="Name" value="Calculation Index">
+		<param name="Local" value="calculation.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Introduction">
+			<param name="Name" value="Calculation Introduction">
+			<param name="Local" value="calintroduction.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Game Rules">
+			<param name="Name" value="Calculation Rules">
+			<param name="Local" value="calrules.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Objective">
+			<param name="Name" value="Calculation Objective">
+			<param name="Local" value="calobjective.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Four Corners">
+		<param name="Name" value="Four Corners">
+		<param name="Local" value="fourcorners.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Introduction">
+			<param name="Name" value="Four Corners - Introduction">
+			<param name="Local" value="fcintroduction.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Objective">
+			<param name="Name" value="Four Corners - Objective">
+			<param name="Local" value="fcobjective.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Game Rules">
+			<param name="Name" value="Four Corners - Rules">
+			<param name="Local" value="fcrules.html">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

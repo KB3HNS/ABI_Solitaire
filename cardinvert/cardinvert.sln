@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cardinvert", "cardinvert.vcproj", "{C2DFD32E-9A67-4EEF-B4B6-43C276CA5B90}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C2DFD32E-9A67-4EEF-B4B6-43C276CA5B90}.Debug.ActiveCfg = Debug|Win32
+		{C2DFD32E-9A67-4EEF-B4B6-43C276CA5B90}.Debug.Build.0 = Debug|Win32
+		{C2DFD32E-9A67-4EEF-B4B6-43C276CA5B90}.Release.ActiveCfg = Release|Win32
+		{C2DFD32E-9A67-4EEF-B4B6-43C276CA5B90}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

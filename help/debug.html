@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>The dbgDummy Class and Debug Builds</title>
+</head>
+<body
+ style="color: rgb(255, 255, 255); background-color: rgb(0, 128, 0);"
+ alink="#ffff00" link="#ffff00" vlink="#cccccc">
+<div style="text-align: center;"><span
+ style="color: rgb(255, 204, 255);"><font size="+3">The dbgDummy Class
+and Debug Builds:<br>
+<br>
+</font></span>
+<div style="text-align: left;"><font size="+2"><span
+ style="font-weight: bold;">The dbgDummy Class:</span></font><br>
+<span style="color: rgb(255, 204, 255);"></span>&nbsp;&nbsp;&nbsp;
+Release builds utilize the Dummy class which is a child of Solitaire
+until a gametype is specified (i.e. through loading a file, or
+selecting a new game).&nbsp; This was done so the game pointer would be
+valid at all times while the system was in the infinite loop.&nbsp; The
+class is created immediately after the window is opened and is deleted
+immediately before a real game class is used.<br>
+&nbsp;&nbsp;&nbsp; A macro defined in debug.h is used to determine if
+the build is a debug or release build.&nbsp; For debug builds, the
+Dummy class is replaced with an instance of dbgDummy.&nbsp; (See
+debug.h, and Solitaire.cpp for how this is done).&nbsp; The dbgDummy
+class allows for easy testing of the graphics drawing routines.&nbsp;
+It can be utilized as follows:<br>
+&nbsp;&nbsp;&nbsp; Left Click:&nbsp; Draw Card at X, Y<br>
+&nbsp;&nbsp;&nbsp; Right Click:&nbsp; Draw Inverted card at X, Y<br>
+&nbsp;&nbsp;&nbsp; Right: Rotate card clockwise 1 degree<br>
+&nbsp;&nbsp;&nbsp; Left: Rotate card counter-clockwise 1 degree<br>
+&nbsp;&nbsp;&nbsp; Up:&nbsp; Zoom in by a factor of .1<br>
+&nbsp;&nbsp;&nbsp; Down:&nbsp; Zoom out by a factor of .1<br>
+&nbsp;&nbsp;&nbsp; Enter:&nbsp; Cycle to the next card<br>
+&nbsp;&nbsp;&nbsp; deal():&nbsp; reset values.<br>
+&nbsp;&nbsp;&nbsp; redrawBoard();&nbsp; clear board<br>
+&nbsp;&nbsp;&nbsp; Additionally, method ::gameName() returns "dbgDummy"
+instead of "Dummy"<br>
+In each instance that a card is either drawn, or redrawn, the class
+calls the appropriate eraseCard() call befor calling drawCard()<br>
+<br>
+<span style="font-weight: bold;"><font size="+2">Additional information
+about Debug builds:<br>
+<font size="+1">The Debug Window:&nbsp; </font></font></span>Debug
+builds open up an additional window labeled Debug Output.&nbsp; This
+window is, for all intents and purposes, a console window.&nbsp; The
+window is a subprocess of the Solitaire application.&nbsp; Closing this
+window will send a close message to the parent and terminate the
+application.&nbsp; I haven't been able to create a perfect console
+window, so the current one has the following limitations:<br>
+&nbsp;&nbsp;&nbsp; No scroll capability<br>
+&nbsp;&nbsp;&nbsp; Text is erased if&nbsp; another window is on top of
+it.<br>
+&nbsp;&nbsp;&nbsp; '\n' is not properly processed.&nbsp; <br>
+&nbsp;&nbsp;&nbsp; Newline is automatically assumed.&nbsp; <br>
+&nbsp;&nbsp;&nbsp; There is a malloc() memory hole (windows specific?)
+that will throw an exception if too many dprintf messages are processed
+(over 200 usually).<br>
+To print information out to the debug window, call dprintf().&nbsp; The
+syntax is identical to that of printf().&nbsp; In a non debug build,
+the dprintf() statement will exist but will not do anything.&nbsp; <br>
+Since cardtools is moving to an independant library, the debug version
+of this library will open up a window of it's own.&nbsp; <br>
+<span style="font-weight: bold;"></span>&nbsp;&nbsp;&nbsp; <br>
+<span style="color: rgb(255, 204, 255);"></span></div>
+</div>
+</body>
+</html>
